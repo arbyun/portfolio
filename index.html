@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniela Castro Portfolio</title>
+    <base href="/portfolio/" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="StaticPortfolio.styles.css" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#3B82F6',
+                            dark: '#3B82F6',
+                            light: '#2563EB'
+                        },
+                        secondary: {
+                            DEFAULT: '#1F2937',
+                            dark: '#1F2937',
+                            light: '#6B7280'
+                        },
+                        accent: {
+                            DEFAULT: '#10B981',
+                            dark: '#10B981',
+                            light: '#059669'
+                        },
+                        dark: {
+                            DEFAULT: '#111827',
+                            dark: '#111827',
+                            light: '#374151'
+                        },
+                        light: {
+                            DEFAULT: '#F9FAFB',
+                            dark: '#F9FAFB',
+                            light: '#FFFFFF'
+                        },
+                        background: {
+                            dark: '#111827',
+                            light: '#FFFFFF'
+                        },
+                        surface: {
+                            dark: '#1F2937',
+                            light: '#F3F4F6'
+                        },
+                        text: {
+                            dark: '#F9FAFB',
+                            light: '#111827'
+                        },
+                        'text-secondary': {
+                            dark: '#D1D5DB',
+                            light: '#6B7280'
+                        }
+                    },
+                    fontFamily: {
+                        'game': ['Orbitron', 'monospace'],
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // https://github.com/rafrex/spa-github-pages
+        // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+        // ----------------------------------------------------------------------
+        // This script checks to see if a redirect is present in the query string
+        // and converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        (function (l) {
+            if (l.search) {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) {
+                    var a = v.split('=');
+                    q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null,
+                        l.pathname.slice(0, -1) + (q.p || '') +
+                        (q.q ? ('?' + q.q) : '') +
+                        l.hash
+                    );
+                }
+            }
+        }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+</head>
+
+<body class="bg-background-dark dark:bg-background-dark light:bg-background-light text-text-dark dark:text-text-dark light:text-text-light font-sans transition-colors duration-300">
+    <div id="app">
+        <div class="loading-container flex items-center justify-center min-h-screen">
+            <div class="text-center">
+                <div class="loading-spinner w-16 h-16 border-4 border-primary-dark dark:border-primary-dark light:border-primary-light border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+                <div class="loading-text text-xl font-game text-primary-dark dark:text-primary-dark light:text-primary-light">Loading Portfolio...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui" class="fixed bottom-0 left-0 right-0 bg-yellow-100 dark:bg-yellow-900 border-t-4 border-yellow-500 text-yellow-700 dark:text-yellow-200 px-4 py-3 shadow-lg z-50 hidden">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <i class="fas fa-exclamation-triangle mr-2"></i>
+                <span>An unhandled error has occurred.</span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <a href="" class="text-yellow-800 dark:text-yellow-200 underline hover:text-yellow-900 dark:hover:text-yellow-100">Reload</a>
+                <a class="dismiss cursor-pointer text-yellow-800 dark:text-yellow-200 hover:text-yellow-900 dark:hover:text-yellow-100">🗙</a>
+            </div>
+        </div>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

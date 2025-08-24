@@ -1,0 +1,941 @@
+[
+  {
+    "id": "agrunare",
+    "title": "Agrunare",
+    "description": "Agrunare is a first person shooter and deck building game mix, where you play as a hacker who can enter digital landscapes to defeat viruses, using different programs (abilities) that appear in the shape of mini-CDs.",
+    "genre": "Adventure",
+    "platform": "Windows PC",
+    "duration": "6 months",
+    "category": "unity",
+    "icon": "fas fa-rocket",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#"],
+    "demoLink": "https://vife.itch.io/agrunare",
+    "itchLink": "https://vife.itch.io/agrunare",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif1.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif2.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif2.gif"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Gameplay Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "6 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Atelier de Projeto, 3rd Year, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru4.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru5.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru6.png"
+    ],
+    "content": {
+      "introduction": "Agrunare is a first-person deck-building speedrunner where players assemble custom decks of card-based \"Programs\" to clear digital levels as quickly as possible. You play as a hacker fighting against computer viruses, leveraging both fast-paced FPS movement and tactical deck-building. The project reflects my effort in coding all major mechanics, including the integration of unique features such as a grappling hook ability and connected online leaderboards for each level.",
+      "myRole": "I built Agrunare's entire codebase and gameplay systems from scratch. The deck-building mechanic allows players to construct a \"Program Set\" from a variety of cards, each offering distinct abilities and buffs that can be strategically chosen to suit each run. Cards are drawn randomly at the start of each round, ensuring fresh challenges for every playthrough.\n\nA highlight of my work is the grappling hook system. When activated, the grappling hook performs a raycast to detect valid grappling points (including surfaces and enemies) and, if successful, launches the player toward the target. The system features auto-aim, obstruction detection, and can execute weakened enemies if certain conditions are met. Visual and audio feedback are provided through Unity’s LineRenderer and sound components, making the grappling action both responsive and satisfying. The code includes advanced handling for target selection, platform detection, and dynamic movement, all tuned for speedrunning gameplay.\n\nAnother significant system is the online leaderboard. For each level, players can submit their scores to a dedicated online leaderboard, with separate boards for each stage. This is managed via a robust LeaderboardManager, which connects to external leaderboard services using unique keys per level. After completing a level, the player’s score—along with their chosen deck—is uploaded and displayed, allowing for competitive play and replayability. The system handles user input, score submission, error handling, and dynamically updates the leaderboard UI to showcase top entries and personal bests.\n\nOther core mechanics include a JSON-based progress and save system, flexible input handling for both controllers and keyboard, and comprehensive UI for deck-building, ability management, and speedrun feedback. These systems all work together to support Agrunare's unique blend of FPS and card strategy.",
+      "technicalAspects": "Agrunare is built in Unity and coded entirely in C#. Most major mechanics, from the deck-building logic to the grappling hook, were custom-developed without reliance on external gameplay plugins.\n\nOnline leaderboard integration is achieved through the LeaderboardManager and the LeaderboardCreator plugin, which connect to a remote server using per-level unique keys. The system supports real-time score submission, personal entry display, error handling, and dynamic updating of the leaderboard UI. Player progress, including top scores and unlocked levels, is saved locally in JSON format and updated when new records are achieved."
+    }
+  },
+  {
+    "id": "simarena",
+    "title": "SimArena",
+    "description": "A flexible and extensible simulation framework toolkit for AI-driven agent-based simulations. It provides a robust foundation for creating, configuring, and running simulations with multiple agents in various scenarios.",
+    "genre": "Tool",
+    "platform": "PC",
+    "duration": "3 months",
+    "category": "console",
+    "icon": "fas fa-dragon",
+    "iconColor": "text-accent",
+    "technologies": ["C#", "Data Analysis", "Procedural Generation"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/VideojogosLusofona/SimArena",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simgif1.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/sim1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/sim1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Sole Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "3 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Language",
+        "description": "C#"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Made For",
+        "description": "Internship at Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena3.png"
+    ],
+    "content": {
+      "introduction": "SimArena is a flexible, extensible C# framework tailored for building agent-based simulations in which AI-driven entities engage in dynamic interactions. Architecturally, the framework is grounded in a simulation engine that operates on a tick-driven update loop. Agents, represented via a Brain abstraction, are situated within a grid-based map and make decisions every tick—moving, acting, or engaging with other entities according to configurable logic.\n\nCore conceptual pillars include modularity and configurability: simulations can be built programmatically or driven through configuration files (JSON or XML), and they support varied scenarios—from team deathmatches to capture-the-point styles—without altering core engine code. The design favors fluid academic or experimental exploration of agent behaviors and combat mechanics in a simulated environment.",
+      "myRole": "I implemented all the code for SimArena. I started by implementing a dual weapon system (melee and ranged), agent-based decision making via configurable \"brains,\" support for tick-based AI think intervals, and configuration-driven instantiation of simulations and agents. \n\nRecently, I've added a map analysis subsystem (IMapAnalysis). It now tracks strategic metrics like deaths, damage, and healing, enabling advanced decision-making by AI agents. Brains were extended to tap into this simulation state for more informed, strategic actions. Configuration templates evolved significantly, enabling overrides, team dynamics, and nuanced combat attributes like cooldowns, ammunition counts, and health parameters. Event-tracking capabilities were greatly enhanced, supporting simulation observability through events such as OnAgentKilled, OnStepCompleted, and OnTeamWon\n\nMechanically, the simulation employs a repeated update loop where each tick invokes agent thinking, action execution, and event propagation, until game-ending conditions are met. The system then determines and logs the winning team.",
+      "technicalAspects": "SimArena is fully implemented in C#, targeting a .NET-compatible architecture with full language consistency. \n\nConfiguration is handled via JSON (with XML support), employing a robust templating and override system to define simulation scenarios declaratively. This allows users to specify agent types, their attributes, weapon systems, and objectives externally without modifying code. \n\nFor map handling, the project integrates RogueSharp, a trusted .NET library that supports map generation, line-of-sight calculations, and other roguelike utility needs—enabling grid-based maps and field-of-view logic without reinventing the wheel. \n\nThe framework is deliberately game-engine-agnostic, meaning it can be integrated into any C#-based game engine, with Unity offered as a concrete example in the Examples subdirectory."
+    }
+  },
+  {
+    "id": "blacksmith",
+    "title": "Blacksmith's Revenge",
+    "description": "A first-person VR tower defense in which you set up traps, fortify your home, and take down waves of adventurers who just won’t stop breaking in, similar to the likes of nostalgic, older games such as Plants vs Zombies. ",
+    "genre": "Tower Defense",
+    "platform": "Windows PC",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-puzzle-piece",
+    "iconColor": "text-primary",
+    "technologies": ["VR", "C#", "Unity"],
+    "demoLink": "https://francisco-anjos.itch.io/blacksmiths-revenge",
+    "itchLink": "https://francisco-anjos.itch.io/blacksmiths-revenge",
+    "githubLink": "https://github.com/Evil-Kitten-Corp/A-Blacksmiths-Revenge",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png",
+    "heroMedia": {
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/blacksmithtrailer.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Game Designer & Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Realidades Expandidas XR, 3rd Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black4.png"
+    ],
+    "content": {
+      "introduction": "A Blacksmith’s Revenge is a first-person VR tower defense game developed in Unity 6 as a two-week prototype for the Expanded Realities class. Inspired by Plants vs. Zombies, the game puts the player in the shoes of a blacksmith NPC defending their home from waves of looting adventurers. Gameplay revolves around strategic grid-based defense placement, direct interaction with defenses, and active combat, all set within an immersive VR environment supporting Meta Quest and PCVR platforms.",
+      "myRole": "As the sole programmer, I engineered all major gameplay systems. The foundation of the game is a grid-based placement mechanic, allowing players to position defenses in optimal locations to block or damage incoming adventurers. I implemented a flexible interaction system using VR controls, enabling players to repair structures with a hammer, remove or reposition defenses using a shovel, and engage enemies directly with a bow. Switching between first-person and a top-down vigilance camera offers both immersive action and strategic overview, with seamless transitions and input handling unique to VR.\n\nEnemy behavior is driven by custom AI scripts, supporting multiple adventurer types with distinct logic. Melee enemies advance and attack defenses they encounter, while mage enemies scan for targets and unleash area-of-effect attacks in a cross pattern, damaging multiple defenses. The core loop consists of three escalating waves, each requiring adaptation in defense placement and resource management. All defenses and enemies use a modular behavior and health system, supporting real-time damage, repairs, and interactions. Feedback systems for player actions, enemy attacks, and wave progression are integrated with animation, sound, and visual effects.\n\nResource management is present through a mana system, governing the placement and activation of certain defenses and abilities. I coded the mana manager to handle regeneration, expenditure, and UI feedback, ensuring tactical depth and balancing rapid placement against long-term defense strategy.",
+      "technicalAspects": "A Blacksmith’s Revenge uses the XR Interaction Toolkit for natural and intuitive VR controls, with all player tools and interactions mapped to motion controllers. Grid logic is managed through custom scripts, handling cell occupation, defense targeting, placement validation, and enemy pathfinding. The enemy AI is modular, leveraging ScriptableObjects for behavior definitions and extensible methods for attack logic, target acquisition, and movement routines.\n\nDamage, repair, and removal systems are abstracted for clarity and scalability, with interfaces unifying defense and enemy interactions. The mana system is singleton-driven for global access, supporting regeneration, spending, and event-driven updates. Audio and animation triggers are coupled to game events, providing immediate feedback and enhancing immersion. All systems are built to support rapid prototyping, with maintainable code organization and extensibility for future features or balancing."
+    }
+  },
+  {
+    "id": "rickroll",
+    "title": "Infinite Rick Roll",
+    "description": "A small experiment on rebuilding a radio and turning it into a game controller. For this purpose, we decided to make an infinite runner style game, in where you play as Rick Astley.",
+    "genre": "Infinite Runner",
+    "platform": "Windows PC",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-car",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "Arduino", "Physical"],
+    "demoLink": "",
+    "itchLink": "https://johnghostkiller.itch.io/radio-controller",
+    "githubLink": "https://github.com/Evil-Kitten-Corp/Arduino-Radio",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rickgif.gif",
+    "heroMedia": {
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rickvid.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick1.jpg"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Game and Arduino Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity, Arduino IDE"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Sistemas de Entretenimento, 3rd Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick2.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick3.jpg"
+    ],
+    "content": {
+      "introduction": "Infinite Rick Roll is a hardware-software project designed to turn an Arduino board and an old, non-functional radio, into a functional game controller. The project is structured to integrate direct Arduino hardware control and communication with Unity.",
+      "myRole": "I implemented the core radio control logic, which includes reading input from physical controls (such as the rotary encoder, buttons, and potentiometer) to change the radio frequency, volume, and other settings. The firmware communicates with a computer, sending commands that are interpreted by the Unity engine to adjust audio output and game controls.\n\nI also implemented the audio visualizer features seen in the game through the cats rotating on the sides; and implemented the endless runner mechanics.",
+      "technicalAspects": "Infinite Rick Roll's technical foundation leverages open-source Arduino libraries and Arduino IDE for hardware abstraction. The main control loop is structured to poll inputs, update display information, and send commands to from the radio to Unity seamlessly, avoiding blocking delays and ensuring responsive performance."
+    }
+  },
+  {
+    "id": "maze-runner",
+    "title": "The Maze Runner: Gladers' Escape",
+    "description": "A platformer sidescrolling fangame with a focus on movement fluidity that allows players to play as different Gladers as they explore each \"level\".",
+    "genre": "Platformer, Sidescroller",
+    "platform": "Unity",
+    "duration": "3 months",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/arbyun/The-Maze-Runner-Team",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmzgif.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "3 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Game Development 1, 1st Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmzlogo.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz3.png"
+    ],
+    "content": {
+      "introduction": "The Maze Runner: Gladers' Escape is a platformer sidescroller developed in Unity as a university project, drawing inspiration from the original Maze Runner film franchise. The game emphasizes movement fluidity and time-based challenges, tasking players with navigating the maze's levels as quickly as possible. Each level is designed to test the player0s ability to traverse complex environments, overcome obstacles, and reach the exit before the timer runs out. Speedrunning is a core design goal, with faster completion times leading to greater in-game rewards and progression.",
+      "myRole": "Gameplay centers around classic platformer movement, including running and jumping, with a particular focus on ensuring smooth, responsive controls. Each level presents a series of hazards and maze walls that the player must navigate to reach their goal.\n\nThe game features a basic health system: as the player takes damage from obstacles or enemies, their HP decreases. When health is low, the player's movement speed is reduced, which increases the challenge of escaping the maze within the time limit. Performance in each level is rewarded with gifts from The Box, such as food items that act as temporary power-ups or weapons for use against enemies. These rewards are directly tied to the player's speed and efficiency in completing levels.\n\nEnemy encounters are an integral part of gameplay. Three enemy types are present: the Follower, which remains idle until the player passes and then pursues for a limited time; the Patroller, which moves back and forth and attacks the player on sight; and the Spitter, a flying adversary that attacks from a distance when the player is within range. Some enemies may persist and follow the player into subsequent levels, dynamically increasing the difficulty. The health and enemy systems are basic but functional, supporting the game’s core loop of exploration, avoidance, and occasional combat.",
+      "technicalAspects": "The Maze Runner: Gladers' Escape is built with Unity 2021.3.16f1 and utilizes C# for scripting. Enemy AI is handled with straightforward state machines, enabling behaviors such as following, patrolling, and ranged attacks. The health controller manages damage and movement speed, integrating closely with the game’s challenge and reward structure."
+    }
+  },
+  {
+    "id": "catris",
+    "title": "Catris - Cat Tetris",
+    "description": "Catris is a mobile arcade game that blends Tetris-style stacking with Suika and custom cat and family selfies, creating a silly and humorous gameplay experience.",
+    "genre": "Arcade, Casual",
+    "platform": "Unity",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "Mobile"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catris1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catris2.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catgif2.gif"
+    ],
+    "content": {
+      "introduction": "Catris is a playful twist on the popular Suika game, developed as a mobile Unity project. Instead of traditional fruits, Catris uses the faces of my cats and family members, captured in silly selfies, as game pieces. The game's primary goal is similar to Suika: stack and combine balls to achieve higher scores, but with a personal touch. Catris was created both as a technical experiment in mobile game development and as a heartfelt gift for my mother.",
+      "myRole": "As the sole developer, I designed and implemented all core mechanics using C# in Unity. I created the gameplay loop, including the stacking, leaderboard, and merging mechanics. Beyond simple stacking mechanics, I programmed special interactions: when specific balls (faces) collide, they may trigger unique events or reactions (for example, two specific cats not liking each other and making the screen shake). The project required working with Unity's physics engine to handle collision detection, sprite management to display the custom images, and mobile controls for gameplay interaction. The code is structured to support these mechanics and includes logic for handling special cases and interactions between game pieces.",
+      "technicalAspects": "Catris was developed using the Unity game engine, specifically targeting mobile platforms. DoTween was used for smooth tweening of UI. All programming was done in C#, leveraging Unity's built-in physics and graphics libraries to handle collision detection, sprite rendering, and mobile input."
+    }
+  },
+  {
+    "id": "myth",
+    "title": "Project Myth",
+    "description": "Project Myth is an escape room game that challenges players to decipher Greek mythology texts in order to solve puzzles. Set in a mystical library inspired by the Great Library of Alexandria, the player's ultimate goal is to complete an artwork by solving all the puzzles in the game.",
+    "genre": "Puzzle",
+    "platform": "Windows PC",
+    "duration": "3 months",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "Graphic Design", "Particle System"],
+    "demoLink": "https://johnghostkiller.itch.io/project-myth",
+    "itchLink": "https://johnghostkiller.itch.io/project-myth",
+    "githubLink": "https://github.com/Evil-Kitten-Corp/Project-Myth",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythgif1.gif",
+    "heroMedia": {
+      "type": "video",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythtrailer.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythlogo.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Gameplay Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "3 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Game Development 1, 2nd Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythgif2.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythlogo.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth4.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth5.png"
+    ],
+    "content": {
+      "introduction": "Project Myth is a first-person escape room puzzle game set in a mystical library inspired by the Great Library of Alexandria. Players decipher Greek texts and solve interconnected puzzles, gradually assembling a majestic artwork by unlocking new spaces and narrative threads. I was the sole coder, responsible for all core gameplay systems, controllers, and minigame implementations.",
+      "myRole": "I engineered all foundational and interactive systems for Project Myth. The player navigates the library using a custom first-person controller supporting 360º movement, physics-based collision, and smooth camera control. Interaction is managed via a robust system allowing the player to examine objects, collect items, open books, and trigger puzzle sequences with contextual prompts and lock/unlock states.\n\nA central feature is the modular puzzle and minigame system. Each major puzzle (Minotaur, Gorgons, Cerberus, Harpies & Furiae, and Fates) is launched and managed through a MinigameStarter and MinigameManager architecture. On player interaction, the system freezes movement, loads the minigame scene, and upon completion, returns control and updates game progress.\n\nSpecific minigames showcase a range of coding skills:\n- Minotaur Maze (Yarn Ball Controller): I coded a physics-driven controller for guiding a ball of yarn through a labyrinth, using Unity’s Rigidbody mechanics and custom win-condition logic.\n- Athena’s Aulos (Simon Says Minigame): For this sequence, I implemented a Simon Says game, complete with input handling, error feedback (audio cues), sequential pattern logic, and game progression triggers.\n- Cerberus, Harpies, and Fates: Each puzzle includes object placement, inventory management, and UI feedback, all handled through extensible custom scripts.\n\nThe minigame progress handler tracks unlock states, completion, and scene management, ensuring smooth transitions and persistent player progression. The puzzle system is flexible, allowing most puzzles to be solved in any order except for the finale, which dynamically arranges narrative threads based on prior accomplishments.",
+      "technicalAspects": "Project Myth is built in Unity 2022.3.9f1 and programmed in C#.\n\nThe interaction system is designed around base classes (such as InteractableBase) and properties for context-sensitive prompts and access control. The modular MinigameStarter and MinigameManager classes centralize puzzle launching, scene loading, and the locking/unlocking of player input and camera. This system handles both single-use and repeatable minigames, and includes extensibility for new puzzle types.\n\nEach minigame is encapsulated in its own controller (e.g., SimonSaysController, BallController), all implementing standardized interfaces and event-driven progress reporting. The code includes custom audio utility classes for feedback, scene unloading and loading routines, and integration with global progression handlers. Your architecture ensures maintainability and scalability for future puzzles or features.\n\nAll scripts, asset references, and configuration files are organized for clarity and future development."
+    }
+  },
+  {
+    "id": "tank-wambo",
+    "title": "TANK! Wambo",
+    "description": "A 2D top-down shooter game that puts players in the role of a brave tank commander on a mission to defeat the entire enemy tank division. Ricochet your bullets across several, single-screened, levels and remember, what goes around comes around.",
+    "genre": "Top-down Shooter",
+    "platform": "PC",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-user-secret",
+    "iconColor": "text-accent",
+    "technologies": ["Unity", "OkapiKit", "Game Design", "NPC Behavior Design"],
+    "demoLink": "https://arbyun.itch.io/tank-wambo",
+    "itchLink": "https://arbyun.itch.io/tank-wambo",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tankgif.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Level and Enemy Designer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Game Design, 1st Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank4.png"
+    ],
+    "content": {
+      "introduction": "Tank Wambo! is a 2D top-down shooter designed to challenge players’ reflexes, strategy, and creativity. The game places the player in the shoes of Tank Commander Wambo, a courageous tank pilot tasked with defeating an entire enemy division using a small, yet versatile, blue tank. Each level is self-contained, featuring unique enemy placements, interactive obstacles, and environmental hazards that encourage ricochet-based combat. The gameplay focuses on short, intense bursts of action, ideal for handheld PCs like the Steam Deck or AYA Neo, while remaining accessible to standard Windows PC players. A central design pillar of the game is the balance between tactical planning and fast-paced action: players must carefully navigate levels, anticipate enemy patterns, and make use of obstacles to maximize the impact of their shots.",
+      "myRole": "In this project, my primary role was that of Level and Enemy Designer. I was responsible for conceptualizing and implementing enemy tanks that fit both the game's mechanics and its overarching design pillars. For Task 1, I designed three unique enemy tank types: a static turret that transitions to an aggressive panic mode under pressure, a patrolling tank that strategically places mines and manipulates environmental objects to control space, and a Dual Wielder that evaluates the arena tactically, alternating between high-damage slow bullets and fast piercing projectiles. These designs were documented thoroughly, with special attention paid to ensuring they contributed to the intended player experience and challenge. \\n\\nFor Task 2, I created fully playable levels using the OkapiKit framework, without writing any code. Each level was designed to highlight the unique behavior of the enemy tanks, incorporating environmental interactions like barrels for ricochet strategies and strategic cover placement. I also fine-tuned enemy behavior parameters, ensuring that each tank type felt distinct and posed meaningful challenges, while maintaining the arcade-style pacing and fairness expected from the game’s target audience.",
+      "technicalAspects": "The project leveraged Unity as the primary development engine and OkapiKit for visual scripting, which allowed me to quickly prototype complex enemy behaviors and level interactions without traditional coding. For the static turret tank, I configured multi-canon firing patterns and implemented a conditional panic mode that increases rotation speed and switches bullet types when the player is in close proximity. The patrolling mine-laying tank required setting up waypoint paths, environmental collision detection, and interaction logic for movable barrels, effectively turning the environment into a dynamic obstacle course. The Dual Wielder was designed with strategic AI parameters: it evaluates cover positions, chooses attack types based on line-of-sight and obstacle layout, and alternates its projectile behavior between thick slow bullets and fast piercing bullets. Beyond AI behavior, I focused on level layout, object placement, and ricochet mechanics to ensure players could utilize environmental strategies effectively."
+    }
+  },
+  {
+    "id": "pardon",
+    "title": "PARDON",
+    "description": "A board game inspired by the likes of popular apps like Dicast and RPG Dice. Players take on the role of fugitive mages competing for the queen’s pardon and a grand reward by capturing one another in a magical forest setting. Recommended to play with HP tracking apps like LifeElk.",
+    "genre": "Board Game",
+    "platform": "Physical",
+    "duration": "1 month",
+    "category": "",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Game Design", "Physical"],
+    "demoLink": "https://arbyun.itch.io/pardon",
+    "itchLink": "https://arbyun.itch.io/pardon",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Game Designer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Game Design, 1st Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardon2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardon1.png"
+    ],
+    "content": {
+      "introduction": "PARDON is a game inspired by the likes of popular apps like Dicast and RPG Dice. The game takes place on a board with 22 tiles that form a circle. \n\nThe intended theme of the game is a medieval RPG set in a magical forest with a simple premise: players are mages who managed to escape from the royal prison during a mass breakout. The queen is offering pardon and an incredible monetary rewards to fugitives who manage to capture one another and bring them to her, dead or alive. \n\nBoth players represent parties interested in the reward.",
+      "myRole": "I was responsible for designing the core mechanics, creating the board and cards, and iterating on the game through six rounds of structured playtesting. I balanced combat, economy, and progression systems, ensuring the game was fast-paced, thematic, and strategic.",
+      "technicalAspects": "The design process involved building a rulebook, designing tokens, symbols, and special items, and implementing an economy and card system. Extensive playtesting sessions highlighted pacing and balance issues, which I resolved by adjusting HP values, refining movement rules, and simplifying card variety. This iterative approach ensured a polished final prototype."
+    }
+  },
+  {
+    "id": "mythbreaker",
+    "title": "Mythbreaker",
+    "description": "Mythbreaker is a Third-Person Hack ‘n Slash RPG where you fight through waves of enemies using a variety of divine powers. The game features a combat system that lets you chain combos.",
+    "genre": "Hack 'n Slash, RPG",
+    "platform": "Unity",
+    "duration": "3 months",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "VFX", "Particle System"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/Evil-Kitten-Corp/Mythbreaker",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif1.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif2.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif2.gif"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Gameplay Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "3 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Game Development 3, 2nd Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker3.png"
+    ],
+    "content": {
+      "introduction": "Mythbreaker is a third-person hack-and-slash RPG for Windows PC, developed in Unity and C#. I was the sole coder, responsible for every gameplay system and technical feature. The game centers on fast-paced combat against waves of robotic enemies in an abandoned warehouse-turned-test-facility, with the player gradually unlocking a suite of divine powers and abilities.\n",
+      "myRole": "I architected all core systems and mechanics. The player has health, mana, fury, and experience stats, managed via custom QuantityBhv components. Gaining XP and leveling up increases stat caps, restores all resources, and triggers feedback routines. Progression is saved at the start of each wave/round, letting the player respawn and continue after death.\n\nCore combat is built on a combo system with light and heavy attacks (LMB/RMB). Four ability slots can be filled from a pool of 10+ divine powers, letting players customize playstyle. Abilities include area-of-effect attacks (Earth Rumble), targeted strikes (Thorn Launch), mobility/stun (Take Down), and temporary invulnerability/damage (Lightning Slasher). They also have types (targeted, AoE), cooldowns, and are triggered by number keys (1-4).\n\nThere are also multiple enemy classes. Enemies use advanced state machines and behavior trees (EnemyBT, MeleeEnemyBehaviour) for AI.",
+      "technicalAspects": "Mythbreaker was developed in Unity and C#. I used DoTween for smooth tweening for the UI and Menus."
+    }
+  },
+  {
+    "id": "dual",
+    "title": "Duality",
+    "description": "Two-player LAN online co-op game, where one player plays as Strawberry Boy and another plays as Banana Boy. It was inspired by the old flash game Fireboy and Watergirl.",
+    "genre": "Puzzle Platformer",
+    "platform": "Unity",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Game Design", "Unity", "C#", "Unity NetCode", "SQLite"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/Evil-Kitten-Corp/Duality",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Game Designer & Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Networking, 2nd Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dual1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dual2.png"
+    ],
+    "content": {
+      "introduction": "Duality is a two-player LAN cooperative game inspired by Fireboy and Watergirl, featuring original characters Banana Boy and Strawberry Boy. The main objective is for each player to collect fruits corresponding to their character and work together to reach the level’s goal. Duality explores the challenge of multiplayer game development, serving as my first foray into networking and netcode in Unity.",
+      "myRole": "As the sole developer, I designed the game's core mechanics, focusing on cooperative play and character-specific objectives. Players can log in, sign up, or play as guests, with profiles and progression tracked via a local SQLite database. I implemented the networked multiplayer experience using Unity Netcode for GameObjects, supporting server, host, and client modes for LAN co-op. Game logic includes spawning the correct character for each player, scorekeeping tied to fruit collection, and handling win/loss conditions through server-authoritative events. The database integration allows for match results and player statistics to be saved for logged-in users. Special attention was given to synchronizing game states and UI updates across clients using Unity's networking RPC methods, and the code structure supports dynamic instantiation and management of player objects and collectibles.",
+      "technicalAspects": "Duality was built with the Unity game engine (version 2022.3.20f1) and coded in C#, utilizing Unity Netcode for GameObjects to synchronize game state and manage client/server communication. SQLite is used for local profile and progression storage, integrated through .NET-compatible libraries for Unity. The project’s architecture supports flexible hosting and client connections, including menu-driven selection of network roles and scene management."
+    }
+  },
+  {
+    "id": "bayes",
+    "title": "Lusofona's Trash Picker",
+    "description": "Lusofóna's Trash Picker is a small game project that simulates a trash picking agent simulation using the Naive Bayes Classifier algorithm. The agent learns by first having a human play the game.",
+    "genre": "Simulation",
+    "platform": "Unity",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "AI"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/arbyun/Bayes-Trash-Picker",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayesgif.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Artificial Intelligence, 2nd Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes3.png"
+    ],
+    "content": {
+      "introduction": "Lusofona's Trash Picker is a game project centered on an intelligent agent that learns to classify and pick up trash in a simulated environment, adapting its decisions based on player behavior. The main technical innovation is the integration of machine learning (specifically, a Naïve Bayes Classifier) into the agent’s decision-making process. The gameplay loop involves the player interacting with the environment, while the AI observes, collects data, and improves its predictions over time. Through this approach, the project explores the intersection of reinforcement and supervised learning in a playful context.\n",
+      "myRole": "Working on this project with two fellow colleagues, I implemented the IA agent, which acts as an autonomous decision-maker within the game. The agent's intelligence is powered by the Naïve Bayes Classifier, which I also coded from scratch. This classifier processes training data collected from the player's actions and uses probabilistic inference to predict which objects are trash. \n\nI also developed the DataCollector class, to automate the process of gathering player-generated features and sending them to the classifier for training. These systems work together: as the player interacts with the game, the DataCollector captures relevant features and labels, forwarding them to the classifier, which then updates its internal model and guides the agent’s choices. \n\nI also extensively documented the codebase to clarify the purpose and logic of each module.",
+      "technicalAspects": "Lusofona's Trash Picker was developed in Unity and C#. The Naïve Bayes Classifier was coded closely following the theory learned in class."
+    }
+  },
+  {
+    "id": "harmony",
+    "title": "Magic Harmony",
+    "description": "A platformer designed for adults with intellectual disabilities and children who cannot yet read, or whose native language is not Portuguese.",
+    "genre": "Platformer, Story-Based, Puzzle",
+    "platform": "Unity",
+    "duration": "1 month",
+    "category": "unity",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Unity", "C#", "Pathfinding"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif2.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "3 Months"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Unity"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Interfaces (Accessibility), 2nd Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif2.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm3.png"
+    ],
+    "content": {
+      "introduction": "Magic Harmony is a platformer designed to make digital storytelling accessible to users with hearing impairments, intellectual disabilities, or reading difficulties. The game focuses on translating the rich world of Alice in Wonderland into a highly visual, intuitive gameplay experience. Players are guided through the story without relying on written text or audio cues, allowing the narrative to be experienced purely through visuals, interactions, and intuitive gameplay mechanics. The project also included the development of a custom tangible controller with large, brightly colored buttons, ensuring that accessibility extends to both digital and physical interfaces.",
+      "myRole": "Magic Harmony is a platformer designed to make digital storytelling accessible to users with hearing impairments, intellectual disabilities, or reading difficulties. The game focuses on translating the rich world of Alice in Wonderland into a highly visual, intuitive gameplay experience. Players are guided through the story without relying on written text or audio cues, allowing the narrative to be experienced purely through visuals, interactions, and intuitive gameplay mechanics. The project also included the development of a custom tangible controller with large, brightly colored buttons, ensuring that accessibility extends to both digital and physical interfaces.",
+      "technicalAspects": "The game was developed in Unity using C# for scripting core gameplay elements. The White Rabbit pathfinding system uses a modified A* algorithm, which accounts for dynamic jumping and obstacle avoidance to guide the player along the intended story path. The custom physical interface was connected through Unity, with six buttons mapped to character movements and actions, providing a tactile and accessible control scheme. Levels were designed with bright, bold colors and clear visual indicators to support comprehension and engagement."
+    }
+  },
+  {
+    "id": "coastal",
+    "title": "Coastal Defense",
+    "description": "Coastal Defense is a fast-paced defense game where players must calculate bullet angles and take down advancing enemies before they reach the shore.",
+    "genre": "Arcade",
+    "platform": "Pygame",
+    "duration": "1 month",
+    "category": "pygame",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Python", "Pygame"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/arbyun/Coastal-Defense",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastal1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Gameplay Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Pygame"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Introduction to Programming, 1st Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastal1.png"
+    ],
+    "content": {
+      "introduction": "Coastal Defense is a dynamic arcade game built in Pygame where players defend the shoreline from waves of incoming enemy ships. The core gameplay revolves around aiming and firing a cannon, predicting projectile trajectories, and preventing enemies from reaching a designated 'danger zone'. The game combines fast-paced action with strategic planning, requiring players to calculate angles and velocities to maximize their score while managing limited lives. Its visual presentation incorporates a multi-layered parallax scrolling sea to create depth and immersion, along with responsive UI elements displaying player lives and scores.",
+      "myRole": "As the programmer, I was responsible for designing and implementing all core mechanics, from projectile physics to enemy behavior. This included creating the cannon aiming and firing system, generating a variety of enemy ships with different sizes and attributes, handling collisions between projectiles and enemies, and managing game progression and difficulty scaling. Additionally, I implemented a parallax sea effect, a dynamic scoring system, and game-over handling, ensuring the game loop ran smoothly at 60 FPS. I also integrated interactive UI feedback, such as drawing lives as hearts, a dotted trajectory preview for aiming, and pausing functionality with cursor visibility toggling.",
+      "technicalAspects": "Technically, the game leverages Python's Pygame library for all rendering, input handling, and timing. Projectile motion is calculated using realistic physics formulas for parabolic trajectories, factoring in gravity and initial firing velocity. The game supports dynamic trajectory previews that update in real time based on mouse position and charging velocity, using a dotted line visualization. Enemy ships are instantiated with randomized sizes and corresponding sprites, scaled appropriately, and move leftward across the screen while avoiding overlap with each other. Collision detection is handled through Pygame Rects, with scoring differentiated based on enemy size. The game features a layered parallax scrolling sea, enhancing visual depth with two layers moving at different speeds. Difficulty increases dynamically based on score, adjusting enemy speed and level progression. Projectile handling is encapsulated in a dedicated `Projectile` class, managing movement along precomputed trajectories and collision detection. The game also includes pause functionality, mouse-based aiming, and smooth animation for sinking enemies when they reach the danger zone."
+    }
+  },
+  {
+    "id": "comets",
+    "title": "Comets",
+    "description": "Comets is a small fast-paced arcade shooter where players control a spaceship and shoot meteors to earn upgrades.",
+    "genre": "Arcade",
+    "platform": "Pygame",
+    "duration": "1 month",
+    "category": "pygame",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Python", "Pygame"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/arbyun/Comets",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/cometsgif1.gif",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual3.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual3.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Gameplay Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Pygame"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Introduction to Programming, 1st Year, 2nd Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/cometsgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual2.png"
+    ],
+    "content": {
+      "introduction": "Comets is a fast-paced arcade shooter where players control a spaceship, dodging and destroying incoming comets. With each comet destroyed, the difficulty increases, pushing players to react quickly and strategize their shots.\n\nPlayers can spend their score in the Upgrade Shop, where they can trade points for power-ups—but at the cost of lowering their high score.",
+      "myRole": "I implemented the leaderboard and the main gameplay features, as well as coding the UI logic. The game features a main menu, a real-time game loop with difficulty scaling, collision detection for comets and projectiles, and a game over screen. Sound effects and pause functionality are also present. Players may spend their score in the upgrade shop to enhance abilities. The leaderboard system tracks and displays high scores, encouraging competitive play.",
+      "technicalAspects": "Comets' technical foundation is built with Python and the Pygame library, alongside standard modules such as time, math, and random. The code is organized into modules handling the main menu, game loop, leaderboards, and game over logic. Controls include arrow keys for movement, spacebar for shooting, and 'P' for pausing or accessing the shop. The UI integrates sound effects and graphical feedback for events like pausing and game over. The upgrade shop allows players to exchange points for enhancements, while the leaderboard persists high scores across sessions."
+    }
+  },
+  {
+    "id": "smith-shop",
+    "title": "Smith Shop",
+    "description": "Smith Shop is a command-line blacksmith shop simulation. You play as a blacksmith trying to make enough money to pay their debts and retire early, while keeping customers happy.",
+    "genre": "Simulation, Management",
+    "platform": "Console",
+    "duration": "1 month",
+    "category": "console",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Game Design", "Python", "Console"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "https://github.com/arbyun/Smith-Shop",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith3.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Game Designer & Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-tools",
+        "name": "Engine",
+        "description": "Console"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "Introduction to Programming, 1st Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith3.png"
+    ],
+    "content": {
+      "introduction": "Smith Shop is a command-line-based management and crafting game where players run a medieval blacksmith shop. The player0s primary goal is to accumulate wealth by crafting and selling items to a variety of customers. The game loop revolves around acquiring resources, crafting equipment, interacting with customers, and responding to random in-game events that affect shop operations. Throughout the experience, players must balance resource management, customer satisfaction, and strategic upgrades in order to reach a set money goal.",
+      "myRole": "I implemented all the game's mechanics. The implemented mechanics cover several core aspects. Players can view their inventory, craft items such as swords, hammers, bows, and arrows, and purchase resources from a dynamically generated shop menu. Crafting requires specific materials, and the quality of crafted items depends on the player’s experience level, which increases with successful item creation. \n\nOnce crafted, items can be sold to customers who arrive with individual requests. Customers have unique names, affection levels, and negotiation tendencies, influencing the outcome of sales and the possibility of price negotiation. Players have the choice to attempt negotiations for higher sale prices, with success chances determined by customer temperament and some randomness; failed negotiations decrease customer affection and may result in lost sales.\n\nThe customer system introduces variety through different personalities and requests. Random events, such as Black Friday or Christmas, temporarily alter the game environment by affecting item prices for a day. Each day, players can choose their actions, and the passage of days is tracked. The game ends when the player reaches a specific money target, at which point a victory message is displayed.",
+      "technicalAspects": "Smith Shop is implemented in Python and structured across several modular files, each handling a distinct part of the game. The main game loop and overall flow are managed in `main.py`, which also tracks days and displays the user interface. Resource buying and selling logic is handled in `buy_sell.py`, while item definitions and crafting rules are found in `items.py`. The player's stats—including money and experience—are managed in `player_character.py`. Customers are generated and managed via `costumer_brain.py`, which sets their affection and negotiation attributes, influencing gameplay outcomes. Random events are implemented in `dayevents.py`, which modifies item prices and other parameters based on the current event.\n\nThe game interface is enhanced with the `rich` and `pyfiglet` libraries, providing visually appealing text and screen management for a more engaging CLI experience. All game actions, from crafting to selling, are presented as clear menu-driven prompts, and inventory and recipes are always accessible for player reference."
+    }
+  },
+  {
+    "id": "ninja",
+    "title": "MUTE: Ninja Gaiden",
+    "description": "A two-week UX research project focused on player engagement and cooperative play. We designed and built an alternative controller for Ninja Gaiden on SNES, splitting controls between two players.",
+    "genre": "Action",
+    "platform": "SNES Emulator, Physical",
+    "duration": "1 month",
+    "category": "",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Game Design", "Physical", "Arduino IDE"],
+    "demoLink": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninjaposter.pdf",
+    "itchLink": "https://francisco-anjos.itch.io/ninja-gaiden-no-talking-coop",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "UX Designer & Researcher"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      },
+      {
+        "icon": "fas fa-book",
+        "name": "Course",
+        "description": "User Experience, 2nd Year, 1st Semester, Universidade Lusófona"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/nina2.png"
+    ],
+    "content": {
+      "introduction": "This project aimed to explore how alternative controllers affect player engagement and cooperation. We created a custom Arduino-based controller for the classic game Ninja Gaiden Trilogy (SNES), where two players shared control of a single character: one responsible for actions (attack, jump, power-ups) and the other for movement. Verbal communication was disallowed, pushing players to develop creative strategies for coordination.\n\nThrough structured playtesting with 10 participants, we evaluated usability, engagement, and collaboration, uncovering how constrained input systems affect cooperative gameplay",
+      "myRole": "I co-designed and built the controller prototype, defined the playtesting methodology, and conducted user testing sessions with 10 participants aged 19–30. I also gathered and analyzed qualitative and quantitative data (Got It/Don’t Got It Grid, engagement scales, questionnaires).\n\nYou can find the scientific poster I made about the experience by clicking 'Demo'.",
+      "technicalAspects": "The controller was built using cardboard housing, an Arduino Nano, wiring, and five tactile buttons mapped to SNES emulator inputs. Data collection included pre- and post-test surveys, observation notes, and engagement scales. Results showed that 80% of players developed non-verbal communication methods, and most found the experience more fun compared to single-player mode, highlighting the value of constrained cooperative design."
+    }
+  },
+  {
+    "id": "portfolio",
+    "title": "Portfolio Website",
+    "description": "A modern, responsive portfolio website built with Blazor WebAssembly and Tailwind CSS, featuring a gaming aesthetic with glass-morphism design, smooth animations, and interactive elements.",
+    "genre": "Website",
+    "platform": "Blazor",
+    "duration": "1 month",
+    "category": "",
+    "icon": "fas fa-crosshairs",
+    "iconColor": "text-primary",
+    "technologies": ["Blazor", "C#", "Blazor", "CSS"],
+    "demoLink": "",
+    "itchLink": "",
+    "githubLink": "",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png",
+    "heroMedia": {
+      "type": "image",
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png"
+    },
+    "projectInfo": [
+      {
+        "icon": "fas fa-user",
+        "name": "Role",
+        "description": "Programmer"
+      },
+      {
+        "icon": "fas fa-clock",
+        "name": "Time Frame",
+        "description": "1 Month"
+      }
+    ],
+    "gallery": [
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png"
+    ],
+    "content": {
+      "introduction": "This portfolio website represents a comprehensive showcase of my game development skills and projects, built using modern web technologies. The site serves as both a professional portfolio and a demonstration of my technical capabilities in web development, featuring a gaming-focused aesthetic that reflects my passion for game development.",
+      "myRole": "As the sole developer, I designed and implemented the entire portfolio website from concept to deployment. This included creating the responsive layout structure, implementing the Blazor WebAssembly components, designing the gaming-themed UI with Tailwind CSS, and ensuring cross-browser compatibility. I also integrated the project data system, implemented smooth animations and transitions, and optimized the site for performance and accessibility.",
+      "technicalAspects": "The portfolio is built on .NET 8.0 Blazor WebAssembly, utilizing C# for all component logic and state management. The frontend employs Tailwind CSS via CDN for rapid UI development, with custom CSS classes for Blazor-specific styling. The architecture follows a component-based design pattern with reusable components for navigation, project cards, and modals. The site features responsive design utilities, custom keyframe animations, and glass-morphism effects using backdrop blur and transparency. Performance is optimized through efficient Blazor rendering, minimal custom styles, and lazy loading techniques. The project data is managed through a JSON-based service layer with HttpClient integration for dynamic content loading."
+    }
+  }
+]

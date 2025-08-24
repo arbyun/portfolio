@@ -1,0 +1,214 @@
+/* Custom styles for Game Dev Portfolio */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/* Base styles */
+html, body {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Theme transitions */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-surface-dark dark:bg-surface-dark light:bg-surface-light;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-primary-dark dark:bg-primary-dark light:bg-primary-light;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-600 dark:bg-blue-600 light:bg-blue-700;
+}
+
+/* Loading animation */
+.loading-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Blazor specific styles */
+#blazor-error-ui {
+    display: none;
+}
+
+.blazor-error-boundary {
+    @apply bg-red-600 dark:bg-red-600 light:bg-red-700;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.blazor-error-boundary::after {
+    content: "An error has occurred.";
+}
+
+/* Custom animations */
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.slide-up {
+    animation: slideUp 0.8s ease-out;
+}
+
+.scale-in {
+    animation: scaleIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from { 
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to { 
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Game dev specific styles */
+.game-card {
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+}
+
+.game-card:hover {
+    transform: translateY(-8px) rotateX(5deg);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.3);
+}
+
+.tech-badge {
+    transition: all 0.2s ease;
+}
+
+.tech-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Filter tabs */
+.filter-tab {
+    @apply bg-primary-dark/10 dark:bg-primary-dark/10 light:bg-primary-light/10;
+    @apply text-text-secondary-dark dark:text-text-secondary-dark light:text-text-secondary-light;
+    @apply border border-primary-dark/20 dark:border-primary-dark/20 light:border-primary-light/20;
+}
+
+.filter-tab:hover {
+    @apply bg-primary-dark/20 dark:bg-primary-dark/20 light:bg-primary-light/20;
+    @apply text-primary-dark dark:text-primary-dark light:text-primary-light;
+    @apply border-primary-dark/40 dark:border-primary-dark/40 light:border-primary-light/40;
+}
+
+.filter-tab.active {
+    @apply bg-primary-dark dark:bg-primary-dark light:bg-primary-light;
+    color: white;
+    @apply border-primary-dark dark:border-primary-dark light:border-primary-light;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Skill items */
+.skill-item {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skill-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+    .game-card:hover {
+        transform: translateY(-4px);
+    }
+}
+
+/* Additional utility classes */
+.text-gradient {
+    background: linear-gradient(135deg, #3B82F6 0%, #10B981 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bg-glass {
+    @apply bg-surface-dark/80 dark:bg-surface-dark/80 light:bg-surface-light/80;
+    backdrop-filter: blur(10px);
+    @apply border border-primary-dark/20 dark:border-primary-dark/20 light:border-primary-light/20;
+}
+
+.shadow-glow {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, .game-card, .tech-badge {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus states for accessibility */
+button:focus, a:focus {
+    @apply outline-2 outline-primary-dark dark:outline-primary-dark light:outline-primary-light;
+    outline-offset: 2px;
+}
+
+/* Custom button styles */
+.btn-primary {
+    @apply bg-primary-dark dark:bg-primary-dark light:bg-primary-light hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-glow;
+}
+
+.btn-secondary {
+    @apply border-2 border-primary-dark dark:border-primary-dark light:border-primary-light text-primary-dark dark:text-primary-dark light:text-primary-light hover:bg-primary-dark dark:hover:bg-primary-dark light:hover:bg-primary-light hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105;
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: '';
+    @apply absolute inset-0 bg-primary-dark/20 dark:bg-primary-dark/20 light:bg-primary-light/20 rounded-lg;
+}
+
+/* Theme-specific background gradients */
+.bg-gradient-dark {
+    @apply bg-gradient-to-br from-background-dark via-surface-dark to-background-dark;
+}
+
+.bg-gradient-light {
+    @apply bg-gradient-to-br from-background-light via-surface-light to-background-light;
+}

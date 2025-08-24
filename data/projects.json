@@ -13,11 +13,11 @@
     "demoLink": "https://vife.itch.io/agrunare",
     "itchLink": "https://vife.itch.io/agrunare",
     "githubLink": "",
-    "image": "/images/projects/agrunare/agrugif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif1.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/agrunare/agrugif2.gif",
-      "fallbackImage": "/images/projects/agrunare/agrugif2.gif"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif2.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agrugif2.gif"
     },
     "projectInfo": [
       {
@@ -42,12 +42,12 @@
       }
     ],
     "gallery": [
-      "/images/projects/agrunare/agru1.png",
-      "/images/projects/agrunare/agru2.png",
-      "/images/projects/agrunare/agru3.png",
-      "/images/projects/agrunare/agru4.png",
-      "/images/projects/agrunare/agru5.png",
-      "/images/projects/agrunare/agru6.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru4.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru5.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/agrunare/agru6.png"
     ],
     "content": {
       "introduction": "Agrunare is a first-person deck-building speedrunner where players assemble custom decks of card-based \"Programs\" to clear digital levels as quickly as possible. You play as a hacker fighting against computer viruses, leveraging both fast-paced FPS movement and tactical deck-building. The project reflects my effort in coding all major mechanics, including the integration of unique features such as a grappling hook ability and connected online leaderboards for each level.",
@@ -69,11 +69,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/VideojogosLusofona/SimArena",
-    "image": "/images/projects/simarena/simgif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simgif1.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/simarena/sim1.png",
-      "fallbackImage": "/images/projects/simarena/sim1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/sim1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/sim1.png"
     },
     "projectInfo": [
       {
@@ -98,10 +98,10 @@
       }
     ],
     "gallery": [
-      "/images/projects/simarena/simgif1.gif",
-      "/images/projects/simarena/simarena1.png",
-      "/images/projects/simarena/simarena2.png",
-      "/images/projects/simarena/simarena3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/simarena/simarena3.png"
     ],
     "content": {
       "introduction": "SimArena is a flexible, extensible C# framework tailored for building agent-based simulations in which AI-driven entities engage in dynamic interactions. Architecturally, the framework is grounded in a simulation engine that operates on a tick-driven update loop. Agents, represented via a Brain abstraction, are situated within a grid-based map and make decisions every tick—moving, acting, or engaging with other entities according to configurable logic.\n\nCore conceptual pillars include modularity and configurability: simulations can be built programmatically or driven through configuration files (JSON or XML), and they support varied scenarios—from team deathmatches to capture-the-point styles—without altering core engine code. The design favors fluid academic or experimental exploration of agent behaviors and combat mechanics in a simulated environment.",
@@ -126,8 +126,8 @@
     "image": "/images/projects/blacksmith/black3.png",
     "heroMedia": {
       "type": "video",
-      "url": "/images/projects/blacksmith/blacksmithtrailer.mp4",
-      "fallbackImage": "/images/projects/blacksmith/black3.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/blacksmithtrailer.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png"
     },
     "projectInfo": [
       {
@@ -152,10 +152,10 @@
       }
     ],
     "gallery": [
-      "/images/projects/blacksmith/black3.png",
-      "/images/projects/blacksmith/black1.png",
-      "/images/projects/blacksmith/black2.png",
-      "/images/projects/blacksmith/black4.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black4.png"
     ],
     "content": {
       "introduction": "A Blacksmith’s Revenge is a first-person VR tower defense game developed in Unity 6 as a two-week prototype for the Expanded Realities class. Inspired by Plants vs. Zombies, the game puts the player in the shoes of a blacksmith NPC defending their home from waves of looting adventurers. Gameplay revolves around strategic grid-based defense placement, direct interaction with defenses, and active combat, all set within an immersive VR environment supporting Meta Quest and PCVR platforms.",
@@ -177,11 +177,11 @@
     "demoLink": "",
     "itchLink": "https://johnghostkiller.itch.io/radio-controller",
     "githubLink": "https://github.com/Evil-Kitten-Corp/Arduino-Radio",
-    "image": "/images/projects/rickroll/rickgif.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rickgif.gif",
     "heroMedia": {
       "type": "video",
-      "url": "/images/projects/rickroll/rickvid.mp4",
-      "fallbackImage": "/images/projects/rickroll/rick1.jpg"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rickvid.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick1.jpg"
     },
     "projectInfo": [
       {
@@ -206,9 +206,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/rickroll/rick1.jpg",
-      "/images/projects/rickroll/rick2.jpg",
-      "/images/projects/rickroll/rick3.jpg"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick2.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/rickroll/rick3.jpg"
     ],
     "content": {
       "introduction": "Infinite Rick Roll is a hardware-software project designed to turn an Arduino board and an old, non-functional radio, into a functional game controller. The project is structured to integrate direct Arduino hardware control and communication with Unity.",
@@ -230,11 +230,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/arbyun/The-Maze-Runner-Team",
-    "image": "/images/projects/maze/tmzgif.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmzgif.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/maze/tmz1.png",
-      "fallbackImage": "/images/projects/maze/tmz1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz1.png"
     },
     "projectInfo": [
       {
@@ -259,9 +259,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/maze/tmzlogo.png",
-      "/images/projects/maze/tmz2.png",
-      "/images/projects/maze/tmz3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmzlogo.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/maze/tmz3.png"
     ],
     "content": {
       "introduction": "The Maze Runner: Gladers' Escape is a platformer sidescroller developed in Unity as a university project, drawing inspiration from the original Maze Runner film franchise. The game emphasizes movement fluidity and time-based challenges, tasking players with navigating the maze's levels as quickly as possible. Each level is designed to test the player0s ability to traverse complex environments, overcome obstacles, and reach the exit before the timer runs out. Speedrunning is a core design goal, with faster completion times leading to greater in-game rewards and progression.",
@@ -283,11 +283,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "",
-    "image": "images/projects/catris/catrislogo2.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png",
     "heroMedia": {
       "type": "image",
-      "url": "images/projects/catris/catrislogo2.png",
-      "fallbackImage": "images/projects/catris/catrislogo2.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png"
     },
     "projectInfo": [
       {
@@ -307,11 +307,11 @@
       }
     ],
     "gallery": [
-      "images/projects/catris/catrislogo1.png",
-      "images/projects/catris/catris1.jpg",
-      "images/projects/catris/catris2.jpg",
-      "images/projects/catris/catgif1.gif",
-      "images/projects/catris/catgif2.gif"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catris1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catris2.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catgif2.gif"
     ],
     "content": {
       "introduction": "Catris is a playful twist on the popular Suika game, developed as a mobile Unity project. Instead of traditional fruits, Catris uses the faces of my cats and family members, captured in silly selfies, as game pieces. The game's primary goal is similar to Suika: stack and combine balls to achieve higher scores, but with a personal touch. Catris was created both as a technical experiment in mobile game development and as a heartfelt gift for my mother.",
@@ -333,11 +333,11 @@
     "demoLink": "https://johnghostkiller.itch.io/project-myth",
     "itchLink": "https://johnghostkiller.itch.io/project-myth",
     "githubLink": "https://github.com/Evil-Kitten-Corp/Project-Myth",
-    "image": "/images/projects/myth/mythgif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythgif1.gif",
     "heroMedia": {
       "type": "video",
-      "url": "/images/projects/myth/mythtrailer.mp4",
-      "fallbackImage": "/images/projects/myth/mythlogo.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythtrailer.mp4",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythlogo.png"
     },
     "projectInfo": [
       {
@@ -362,13 +362,13 @@
       }
     ],
     "gallery": [
-      "/images/projects/myth/mythgif2.gif",
-      "/images/projects/myth/mythlogo.png",
-      "/images/projects/myth/myth1.png",
-      "/images/projects/myth/myth2.png",
-      "/images/projects/myth/myth3.png",
-      "/images/projects/myth/myth4.png",
-      "/images/projects/myth/myth5.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythgif2.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/mythlogo.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth4.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/myth/myth5.png"
     ],
     "content": {
       "introduction": "Project Myth is a first-person escape room puzzle game set in a mystical library inspired by the Great Library of Alexandria. Players decipher Greek texts and solve interconnected puzzles, gradually assembling a majestic artwork by unlocking new spaces and narrative threads. I was the sole coder, responsible for all core gameplay systems, controllers, and minigame implementations.",
@@ -390,11 +390,11 @@
     "demoLink": "https://arbyun.itch.io/tank-wambo",
     "itchLink": "https://arbyun.itch.io/tank-wambo",
     "githubLink": "",
-    "image": "/images/projects/tank/tankgif.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tankgif.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/tank/tank1.png",
-      "fallbackImage": "/images/projects/tank/tank1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png"
     },
     "projectInfo": [
       {
@@ -419,10 +419,10 @@
       }
     ],
     "gallery": [
-      "/images/projects/tank/tank1.png",
-      "/images/projects/tank/tank2.png",
-      "/images/projects/tank/tank3.png",
-      "/images/projects/tank/tank4.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank3.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/tank/tank4.png"
     ],
     "content": {
       "introduction": "Tank Wambo! is a 2D top-down shooter designed to challenge players’ reflexes, strategy, and creativity. The game places the player in the shoes of Tank Commander Wambo, a courageous tank pilot tasked with defeating an entire enemy division using a small, yet versatile, blue tank. Each level is self-contained, featuring unique enemy placements, interactive obstacles, and environmental hazards that encourage ricochet-based combat. The gameplay focuses on short, intense bursts of action, ideal for handheld PCs like the Steam Deck or AYA Neo, while remaining accessible to standard Windows PC players. A central design pillar of the game is the balance between tactical planning and fast-paced action: players must carefully navigate levels, anticipate enemy patterns, and make use of obstacles to maximize the impact of their shots.",
@@ -444,11 +444,11 @@
     "demoLink": "https://arbyun.itch.io/pardon",
     "itchLink": "https://arbyun.itch.io/pardon",
     "githubLink": "",
-    "image": "/images/projects/pardon/pardonlogo.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/pardon/pardonlogo.png",
-      "fallbackImage": "/images/projects/pardon/pardonlogo.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardonlogo.png"
     },
     "projectInfo": [
       {
@@ -468,8 +468,8 @@
       }
     ],
     "gallery": [
-      "/images/projects/pardon/pardon2.png",
-      "/images/projects/pardon/pardon1.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardon2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/pardon/pardon1.png"
     ],
     "content": {
       "introduction": "PARDON is a game inspired by the likes of popular apps like Dicast and RPG Dice. The game takes place on a board with 22 tiles that form a circle. \n\nThe intended theme of the game is a medieval RPG set in a magical forest with a simple premise: players are mages who managed to escape from the royal prison during a mass breakout. The queen is offering pardon and an incredible monetary rewards to fugitives who manage to capture one another and bring them to her, dead or alive. \n\nBoth players represent parties interested in the reward.",
@@ -491,11 +491,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/Evil-Kitten-Corp/Mythbreaker",
-    "image": "/images/projects/mbreaker/breakergif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif1.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/mbreaker/breakergif2.gif",
-      "fallbackImage": "/images/projects/mbreaker/breakergif2.gif"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif2.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breakergif2.gif"
     },
     "projectInfo": [
       {
@@ -520,9 +520,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/mbreaker/breaker1.png",
-      "images/projects/mbreaker/breaker2.png",
-      "images/projects/mbreaker/breaker3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mbreaker/breaker3.png"
     ],
     "content": {
       "introduction": "Mythbreaker is a third-person hack-and-slash RPG for Windows PC, developed in Unity and C#. I was the sole coder, responsible for every gameplay system and technical feature. The game centers on fast-paced combat against waves of robotic enemies in an abandoned warehouse-turned-test-facility, with the player gradually unlocking a suite of divine powers and abilities.\n",
@@ -544,11 +544,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/Evil-Kitten-Corp/Duality",
-    "image": "/images/projects/dual/dualgif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/dual/dualgif1.gif",
-      "fallbackImage": "/images/projects/dual/dualgif1.gif"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif"
     },
     "projectInfo": [
       {
@@ -573,9 +573,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/dual/dualgif1.gif",
-      "/images/projects/dual/dual1.png",
-      "/images/projects/dual/dual2.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dualgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dual1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/dual/dual2.png"
     ],
     "content": {
       "introduction": "Duality is a two-player LAN cooperative game inspired by Fireboy and Watergirl, featuring original characters Banana Boy and Strawberry Boy. The main objective is for each player to collect fruits corresponding to their character and work together to reach the level’s goal. Duality explores the challenge of multiplayer game development, serving as my first foray into networking and netcode in Unity.",
@@ -597,11 +597,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/arbyun/Bayes-Trash-Picker",
-    "image": "/images/projects/bayes/bayesgif.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayesgif.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/bayes/bayes1.png",
-      "fallbackImage": "/images/projects/bayes/bayes1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png"
     },
     "projectInfo": [
       {
@@ -626,9 +626,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/bayes/bayes1.png",
-      "/images/projects/bayes/bayes2.png",
-      "/images/projects/bayes/bayes3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/bayes/bayes3.png"
     ],
     "content": {
       "introduction": "Lusofona's Trash Picker is a game project centered on an intelligent agent that learns to classify and pick up trash in a simulated environment, adapting its decisions based on player behavior. The main technical innovation is the integration of machine learning (specifically, a Naïve Bayes Classifier) into the agent’s decision-making process. The gameplay loop involves the player interacting with the environment, while the AI observes, collects data, and improves its predictions over time. Through this approach, the project explores the intersection of reinforcement and supervised learning in a playful context.\n",
@@ -650,11 +650,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "",
-    "image": "/images/projects/mharm/mharmgif2.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif2.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/mharm/mharmgif1.gif",
-      "fallbackImage": "/images/projects/mharm/mharmgif1.gif"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif"
     },
     "projectInfo": [
       {
@@ -679,11 +679,11 @@
       }
     ],
     "gallery": [
-      "/images/projects/mharm/mharmgif1.gif",
-      "/images/projects/mharm/mharmgif2.gif",
-      "/images/projects/mharm/mharm1.png",
-      "/images/projects/mharm/mharm2.png",
-      "/images/projects/mharm/mharm3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharmgif2.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/mharm/mharm3.png"
     ],
     "content": {
       "introduction": "Magic Harmony is a platformer designed to make digital storytelling accessible to users with hearing impairments, intellectual disabilities, or reading difficulties. The game focuses on translating the rich world of Alice in Wonderland into a highly visual, intuitive gameplay experience. Players are guided through the story without relying on written text or audio cues, allowing the narrative to be experienced purely through visuals, interactions, and intuitive gameplay mechanics. The project also included the development of a custom tangible controller with large, brightly colored buttons, ensuring that accessibility extends to both digital and physical interfaces.",
@@ -705,11 +705,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/arbyun/Coastal-Defense",
-    "image": "/images/projects/coastal/coastalgif.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/coastal/coastalgif.gif",
-      "fallbackImage": "/images/projects/coastal/coastal1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastal1.png"
     },
     "projectInfo": [
       {
@@ -734,8 +734,8 @@
       }
     ],
     "gallery": [
-      "/images/projects/coastal/coastalgif.gif",
-      "/images/projects/coastal/coastal1.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastalgif.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/coastal/coastal1.png"
     ],
     "content": {
       "introduction": "Coastal Defense is a dynamic arcade game built in Pygame where players defend the shoreline from waves of incoming enemy ships. The core gameplay revolves around aiming and firing a cannon, predicting projectile trajectories, and preventing enemies from reaching a designated 'danger zone'. The game combines fast-paced action with strategic planning, requiring players to calculate angles and velocities to maximize their score while managing limited lives. Its visual presentation incorporates a multi-layered parallax scrolling sea to create depth and immersion, along with responsive UI elements displaying player lives and scores.",
@@ -757,11 +757,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/arbyun/Comets",
-    "image": "/images/projects/comets/cometsgif1.gif",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/cometsgif1.gif",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/comets/dual3.png",
-      "fallbackImage": "/images/projects/comets/dual3.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual3.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual3.png"
     },
     "projectInfo": [
       {
@@ -786,9 +786,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/comets/cometsgif1.gif",
-      "/images/projects/comets/dual1.png",
-      "/images/projects/comets/dual2.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/cometsgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/comets/dual2.png"
     ],
     "content": {
       "introduction": "Comets is a fast-paced arcade shooter where players control a spaceship, dodging and destroying incoming comets. With each comet destroyed, the difficulty increases, pushing players to react quickly and strategize their shots.\n\nPlayers can spend their score in the Upgrade Shop, where they can trade points for power-ups—but at the cost of lowering their high score.",
@@ -810,11 +810,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "https://github.com/arbyun/Smith-Shop",
-    "image": "/images/projects/smith/smith1.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/smith/smith3.png",
-      "fallbackImage": "/images/projects/smith/smith1.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith3.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png"
     },
     "projectInfo": [
       {
@@ -839,9 +839,9 @@
       }
     ],
     "gallery": [
-      "/images/projects/smith/smith1.png",
-      "/images/projects/smith/smith2.png",
-      "/images/projects/smith/smith3.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith2.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/smith/smith3.png"
     ],
     "content": {
       "introduction": "Smith Shop is a command-line-based management and crafting game where players run a medieval blacksmith shop. The player0s primary goal is to accumulate wealth by crafting and selling items to a variety of customers. The game loop revolves around acquiring resources, crafting equipment, interacting with customers, and responding to random in-game events that affect shop operations. Throughout the experience, players must balance resource management, customer satisfaction, and strategic upgrades in order to reach a set money goal.",
@@ -860,14 +860,14 @@
     "icon": "fas fa-crosshairs",
     "iconColor": "text-primary",
     "technologies": ["Game Design", "Physical", "Arduino IDE"],
-    "demoLink": "/images/projects/ninja/ninjaposter.pdf",
+    "demoLink": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninjaposter.pdf",
     "itchLink": "https://francisco-anjos.itch.io/ninja-gaiden-no-talking-coop",
     "githubLink": "",
-    "image": "/images/projects/ninja/ninja1.jpg",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/ninja/ninja1.jpg",
-      "fallbackImage": "/images/projects/ninja/ninja1.jpg"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg"
     },
     "projectInfo": [
       {
@@ -887,8 +887,8 @@
       }
     ],
     "gallery": [
-      "/images/projects/ninja/ninja1.jpg",
-      "/images/projects/ninja/ninja2.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja2.png"
     ],
     "content": {
       "introduction": "This project aimed to explore how alternative controllers affect player engagement and cooperation. We created a custom Arduino-based controller for the classic game Ninja Gaiden Trilogy (SNES), where two players shared control of a single character: one responsible for actions (attack, jump, power-ups) and the other for movement. Verbal communication was disallowed, pushing players to develop creative strategies for coordination.\n\nThrough structured playtesting with 10 participants, we evaluated usability, engagement, and collaboration, uncovering how constrained input systems affect cooperative gameplay",
@@ -910,11 +910,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "",
-    "image": "/images/projects/site/site2.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png",
     "heroMedia": {
       "type": "image",
-      "url": "/images/projects/site/site2.png",
-      "fallbackImage": "/images/projects/site/site2.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png"
     },
     "projectInfo": [
       {
@@ -929,8 +929,8 @@
       }
     ],
     "gallery": [
-      "/images/projects/site/site1.png",
-      "/images/projects/site/site2.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png"
     ],
     "content": {
       "introduction": "This portfolio website represents a comprehensive showcase of my game development skills and projects, built using modern web technologies. The site serves as both a professional portfolio and a demonstration of my technical capabilities in web development, featuring a gaming-focused aesthetic that reflects my passion for game development.",

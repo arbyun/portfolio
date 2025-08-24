@@ -1,7 +1,14 @@
-# Portfolio
+
+<p align="center">
+  <img src="https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/site/site2.png">
+</p>
+
+
+<h1 align="center"><b> Portfolio</b> </h1>
 
 This is my modern, responsive portfolio website built with **Blazor WebAssembly** and **Tailwind CSS** for showcasing
 my game development projects and skills.
+
 
 ## Technologies Used
 

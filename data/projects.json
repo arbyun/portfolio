@@ -219,7 +219,7 @@
   {
     "id": "maze-runner",
     "title": "The Maze Runner: Gladers' Escape",
-    "description": "A platformer sidescrolling fangame with a focus on movement fluidity that allows players to play as different Gladers (survivors that live in the maze) as they explore each \"level\".",
+    "description": "A platformer sidescrolling fangame with a focus on movement fluidity that allows players to play as different Gladers as they explore each \"level\".",
     "genre": "Platformer, Sidescroller",
     "platform": "Unity",
     "duration": "3 months",
@@ -433,7 +433,7 @@
   {
     "id": "pardon",
     "title": "PARDON",
-    "description": "A board game inspired by the likes of popular apps like Dicast and RPG Dice. Players take on the role of fugitive mages competing for the queen’s pardon and a grand reward by capturing one another in a magical forest setting. Recommended to play with LifeElk.",
+    "description": "A board game inspired by the likes of popular apps like Dicast and RPG Dice. Players take on the role of fugitive mages competing for the queen’s pardon and a grand reward by capturing one another in a magical forest setting. Recommended to play with HP tracking apps like LifeElk.",
     "genre": "Board Game",
     "platform": "Physical",
     "duration": "1 month",
@@ -639,7 +639,7 @@
   {
     "id": "harmony",
     "title": "Magic Harmony",
-    "description": "A platformer designed for adults with intellectual disabilities and children who cannot yet read, or whose native language is not Portuguese, combining visual storytelling and accessible controls.",
+    "description": "A platformer designed for adults with intellectual disabilities and children who cannot yet read, or whose native language is not Portuguese.",
     "genre": "Platformer, Story-Based, Puzzle",
     "platform": "Unity",
     "duration": "1 month",
@@ -746,7 +746,7 @@
   {
     "id": "comets",
     "title": "Comets",
-    "description": "Small fast-paced arcade shooter where players control a spaceship.",
+    "description": "Comets is a small fast-paced arcade shooter where players control a spaceship and shoot meteors to earn upgrades.",
     "genre": "Arcade",
     "platform": "Pygame",
     "duration": "1 month",
@@ -799,7 +799,7 @@
   {
     "id": "smith-shop",
     "title": "Smith Shop",
-    "description": "Smith Shop is a command-line blacksmith shop simulation. You play as a blacksmith trying to make enough money to pay their debts and retire early.",
+    "description": "Smith Shop is a command-line blacksmith shop simulation. You play as a blacksmith trying to make enough money to pay their debts and retire early, while keeping customers happy.",
     "genre": "Simulation, Management",
     "platform": "Console",
     "duration": "1 month",

@@ -112,7 +112,7 @@
   {
     "id": "blacksmith",
     "title": "Blacksmith's Revenge",
-    "description": "A first-person VR tower defense in which you set up traps, fortify your home, and take down waves of adventurers who just won’t stop breaking in, similar to the likes of games such as Plants vs Zombies. ",
+    "description": "A first-person VR tower defense in which you set up traps, fortify your home, and take down waves of adventurers who just won’t stop breaking in, similar to the likes of nostalgic, older games such as Plants vs Zombies. ",
     "genre": "Tower Defense",
     "platform": "Windows PC",
     "duration": "1 month",
@@ -123,7 +123,7 @@
     "demoLink": "https://francisco-anjos.itch.io/blacksmiths-revenge",
     "itchLink": "https://francisco-anjos.itch.io/blacksmiths-revenge",
     "githubLink": "https://github.com/Evil-Kitten-Corp/A-Blacksmiths-Revenge",
-    "image": "/images/projects/blacksmith/black3.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/black3.png",
     "heroMedia": {
       "type": "video",
       "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/blacksmith/blacksmithtrailer.mp4",
@@ -219,7 +219,7 @@
   {
     "id": "maze-runner",
     "title": "The Maze Runner: Gladers' Escape",
-    "description": "A platformer sidescrolling fangame with a focus on movement fluidity that allows players to play as different Gladers (survivors that live in the maze) as they explore each \"level\" (subsections of the maze) and complete various challenges.",
+    "description": "A platformer sidescrolling fangame with a focus on movement fluidity that allows players to play as different Gladers (survivors that live in the maze) as they explore each \"level\".",
     "genre": "Platformer, Sidescroller",
     "platform": "Unity",
     "duration": "3 months",
@@ -272,7 +272,7 @@
   {
     "id": "catris",
     "title": "Catris - Cat Tetris",
-    "description": "A silly Suika-style game with cats.",
+    "description": "Catris is a mobile arcade game that blends Tetris-style stacking with Suika and custom cat and family selfies, creating a silly and humorous gameplay experience.",
     "genre": "Arcade, Casual",
     "platform": "Unity",
     "duration": "1 month",
@@ -283,11 +283,11 @@
     "demoLink": "",
     "itchLink": "",
     "githubLink": "",
-    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png",
+    "image": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png",
     "heroMedia": {
       "type": "image",
-      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png",
-      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo2.png"
+      "url": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png",
+      "fallbackImage": "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo2.png"
     },
     "projectInfo": [
       {
@@ -307,11 +307,11 @@
       }
     ],
     "gallery": [
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catrislogo1.png",
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catris1.jpg",
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catris2.jpg",
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catgif1.gif",
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/masterimages/projects/catris/catgif2.gif"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catrislogo1.png",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catris1.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catris2.jpg",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catgif1.gif",
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/catris/catgif2.gif"
     ],
     "content": {
       "introduction": "Catris is a playful twist on the popular Suika game, developed as a mobile Unity project. Instead of traditional fruits, Catris uses the faces of my cats and family members, captured in silly selfies, as game pieces. The game's primary goal is similar to Suika: stack and combine balls to achieve higher scores, but with a personal touch. Catris was created both as a technical experiment in mobile game development and as a heartfelt gift for my mother.",
@@ -433,7 +433,7 @@
   {
     "id": "pardon",
     "title": "PARDON",
-    "description": "A board game inspired by the likes of popular apps like Dicast and RPG Dice. Players take on the role of fugitive mages competing for the queen’s pardon and a grand reward by capturing one another in a magical forest setting.",
+    "description": "A board game inspired by the likes of popular apps like Dicast and RPG Dice. Players take on the role of fugitive mages competing for the queen’s pardon and a grand reward by capturing one another in a magical forest setting. Recommended to play with LifeElk.",
     "genre": "Board Game",
     "platform": "Physical",
     "duration": "1 month",
@@ -533,7 +533,7 @@
   {
     "id": "dual",
     "title": "Duality",
-    "description": "Two-player LAN online co-op game, where one player plays as Strawberry Boy and another plays as Banana Boy. Inspired by Fireboy and Watergirl.",
+    "description": "Two-player LAN online co-op game, where one player plays as Strawberry Boy and another plays as Banana Boy. It was inspired by the old flash game Fireboy and Watergirl.",
     "genre": "Puzzle Platformer",
     "platform": "Unity",
     "duration": "1 month",
@@ -586,7 +586,7 @@
   {
     "id": "bayes",
     "title": "Lusofona's Trash Picker",
-    "description": "Lusofóna's Trash Picker is a small game project that simulates a trash picking agent simulation using the Naive Bayes Classifier algorithm. The agent learns by first having a human play the game and logging their actions.",
+    "description": "Lusofóna's Trash Picker is a small game project that simulates a trash picking agent simulation using the Naive Bayes Classifier algorithm. The agent learns by first having a human play the game.",
     "genre": "Simulation",
     "platform": "Unity",
     "duration": "1 month",
@@ -888,7 +888,7 @@
     ],
     "gallery": [
       "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja1.jpg",
-      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/ninja2.png"
+      "https://media.githubusercontent.com/media/arbyun/portfolio/refs/heads/master/images/projects/ninja/nina2.png"
     ],
     "content": {
       "introduction": "This project aimed to explore how alternative controllers affect player engagement and cooperation. We created a custom Arduino-based controller for the classic game Ninja Gaiden Trilogy (SNES), where two players shared control of a single character: one responsible for actions (attack, jump, power-ups) and the other for movement. Verbal communication was disallowed, pushing players to develop creative strategies for coordination.\n\nThrough structured playtesting with 10 participants, we evaluated usability, engagement, and collaboration, uncovering how constrained input systems affect cooperative gameplay",
